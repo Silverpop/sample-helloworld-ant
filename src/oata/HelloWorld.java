@@ -2,6 +2,12 @@ package oata;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        String message = "Hello World";
+        char[] data = message.toCharArray();
+  
+        // Printing array
+        for (char d : data) {
+            System.out.println(d);
+        }
     }
 }
